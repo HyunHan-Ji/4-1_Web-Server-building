@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+    ul, ol, li { list-style:none; margin:0; padding:0; }
+   
+    ul.myMenu > li { display:block; width:300px; height:40px; 
+    	padding:10px; margin:30px;  text-align:left;
+    	border-color: blue; border-style: solid; border-width: 1px;
+    	color: blue;
+    	}
+    	
+    .menu1:hover{
+    	background-color: blue;
+    	color:white;
+    }
+    .menu2:hover{
+    	margin-left:100px;
+    }
+    .menu3:hover{
+    	border-width:10px;
+    }
+    .menu4:hover{
+    	height:300px;
+    }
+</style>
+</head>
+<body>
+
+<div>
+<ul class="myMenu">
+    <li class="menu1">color change</li>
+    <li class="menu2">x offset change</li>
+    <li class="menu3">border change</li>
+    <li class="menu4">size change</li>   
+</ul>
+</div>
+</body>
+</html>
+
+
+
+
+----------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+	.navi{
+		background-color: gray;
+		width:800px;
+	}
+	
+	.navi li{
+		display:inline-block; width:60px; height:60px;
+		padding:10px;
+    	
+	}
+	
+	.navi li a{
+		color: white;
+	}
+	
+	.navi li a:hover{
+		color: black;
+	}
+	
+	</style>
+	
+</head>
+<body>
+	<ul class='navi'>
+		<li><a href="#">menu01</a><li>
+		<li><a href="#">menu02</a><li>
+		<li><a href="#">menu03</a><li>
+		<li><a href="#">menu04</a><li>
+	</ul>
+</body>
+</html>

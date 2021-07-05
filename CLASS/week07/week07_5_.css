@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+
+.head {	
+	width: 900px;
+	height: 35px;
+	line-height:35px;
+	background: black;
+	text-align:center;
+}
+.head a{
+	text-decoration: none;
+	color: white;
+	float:left;
+	padding-left: 2em;
+}
+
+#a{
+	display:block;
+	width: 800px;
+	background: gray;
+	text-align:center;
+	font-size: 50px;
+	text-align:center;
+	padding: 50px;
+}
+
+#b{
+	width: 800px;
+	height: 100px;
+	text-align: center;
+	margin: 20px;
+}
